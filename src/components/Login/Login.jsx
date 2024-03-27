@@ -72,7 +72,7 @@ let x= Yup.object({
 
       {loading? <Spinner className=' d-block my-4  mx-auto ' animation="grow" variant="success" />: <button disabled={!(formik.isValid&&formik.dirty)} className='btn bg-main text-light my-4 w-100 mx-auto d-block' type='submit'>LogIn</button>}
      
-<span >does not have an account? <Link to='/register' className='text-danger'>sign up</Link></span>
+<span >do not have an account? <Link to='/register' className='text-danger'>sign up</Link></span>
 </Col>
 
 
